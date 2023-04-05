@@ -1,0 +1,11 @@
+[address]
+host = "localhost"
+port = 8000
+
+[user]
+username = "surreal_test"
+password = "surreal_test"
+
+[database]
+namespace = "surreal_test"
+database = "surreal_test"

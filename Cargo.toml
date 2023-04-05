@@ -1,0 +1,13 @@
+[package]
+name = "surrealdb_test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = { version = "0.5.0-rc.3", features = ["json"] }
+serde = { version = "1.0.159", features = ["derive"] }
+surrealdb = "1.0.0-beta.9"
+tokio = { version = "1.27.0", features = ["full", "macros", "rt-multi-thread"] }
+figment = { version = "0.10.8", features = ["toml"] }
